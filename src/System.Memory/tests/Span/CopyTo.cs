@@ -86,6 +86,7 @@ namespace System.SpanTests
         }
 
         [Fact]
+        [Trait("MyTrait", "MyTraitValue")]
         public static void CopyToShorter()
         {
             int[] src = { 1, 2, 3 };
